@@ -1,0 +1,35 @@
+<button onclick="goBack()">Go Back</button>
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+
+<!DOCTYPE html>
+
+<!-- Fig. 4.1: inline.htm] -->
+<!-- Using inline styles -->
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Inline Styles</title>
+	</head>
+	<body>
+		<p>This text does not have any style applied to it.</p>
+
+		<!-- The style attribute allows you to declare -->
+		<!-- inline styles. Separate multiple -->
+		<!-- style properties with a semicolon. -->
+
+		<p style = "font-size: 20pt;">This text has the
+			<em>font-size</em> style applied to it, making it 20pt.
+		</p>
+
+
+		<p style = "font-size: 20pt; color: deepskyblue;">
+			This text has the <em>font-size</em> and
+			<em>color</em> styles applied to it, making it
+			20pt and deep sky blue.</p>
+	</body>
+</html>
